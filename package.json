@@ -1,6 +1,7 @@
 {
   "name": "@salte-auth/google",
   "version": "3.0.0",
+  "browser": "dist/google.min.js",
   "main": "dist/google.min.js",
   "module": "dist/google.min.mjs",
   "types": "dist/google.d.ts",
