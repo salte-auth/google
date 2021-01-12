@@ -8,11 +8,11 @@ export class Google extends OAuth2Provider {
       scope: 'https://www.googleapis.com/auth/userinfo.profile'
     })
   }
-  public get name() {
+  public get name(): string {
     return 'google';
   }
 
-  public get login() {
+  public get login(): string {
     return 'https://accounts.google.com/o/oauth2/v2/auth';
   }
 }
